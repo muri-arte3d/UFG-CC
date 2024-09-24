@@ -1,1 +1,11 @@
+./1-semestre/CS/CS_Videos/2024_CS_Luana_Murilo.mp4
+./1-semestre/CS/CS_Videos/Comp.mp4
+./1-semestre/CS/CS_Videos/Projeto_CS_Luana_Murilo.mp4
+
+# Exclude videos
 *.mp4
+*.MOV
+*.MP4
+*.mov
+*.avi
+*.AVI 
