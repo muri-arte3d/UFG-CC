@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"23ae2d77349f4ede","type":"text","text":"### Acessando a página","x":-151,"y":-360,"width":262,"height":60},
+		{"id":"b4637f45cca26578","type":"file","file":"1-semestre/CS/Computação e Sociedade 2024-2.md","x":-169,"y":-620,"width":298,"height":83},
+		{"id":"1542011871f1bdd6","x":-147,"y":-200,"width":255,"height":50,"type":"text","text":" https://turing.inf.ufg.br/course/view.php?id=847"},
+		{"id":"3007a309b1512a73","x":-740,"y":-900,"width":400,"height":62,"type":"file","file":"1-semestre/CS/Plano_Ensino.pdf"}
+	],
+	"edges":[
+		{"id":"51855c9d22c588b4","fromNode":"b4637f45cca26578","fromSide":"bottom","toNode":"23ae2d77349f4ede","toSide":"top"},
+		{"id":"8fc889ec9fa2d6fa","fromNode":"23ae2d77349f4ede","fromSide":"bottom","toNode":"1542011871f1bdd6","toSide":"top"},
+		{"id":"42ae2f1a64c82779","fromNode":"b4637f45cca26578","fromSide":"left","toNode":"3007a309b1512a73","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"4d344d0a57866eac","type":"file","file":"1-semestre/IP/codigos/Lista_01_Vinicius/Lista_01_Vinicius.pdf","x":-320,"y":560,"width":400,"height":540,"color":"4"},
+		{"id":"d2bcfe439685d253","type":"file","file":"1-semestre/IP/codigos/Lista_02_Vinicius/lista-2.pdf","x":220,"y":560,"width":400,"height":540,"color":"4"},
+		{"id":"c558705b593b78fa","type":"text","text":"# Fluxo Introdução à Programação\n","x":-980,"y":460,"width":493,"height":60}
+	],
+	"edges":[
+		{"id":"0ef680600b3048b4","fromNode":"4d344d0a57866eac","fromSide":"right","toNode":"d2bcfe439685d253","toSide":"left","color":"4"},
+		{"id":"bbd7e9abbb2a58d0","fromNode":"c558705b593b78fa","fromSide":"bottom","toNode":"4d344d0a57866eac","toSide":"left","color":"4"}
+	]
+}
