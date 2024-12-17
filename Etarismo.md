@@ -1,0 +1,10 @@
+### Caracterização:
+
+-  
+### Ocorrência
+
+- 
+
+### Medidas
+
+- 
