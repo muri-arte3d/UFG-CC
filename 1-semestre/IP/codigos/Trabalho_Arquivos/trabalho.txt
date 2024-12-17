@@ -1,0 +1,15 @@
+Faca um programa que leia uma string, com ate 256 caracteres, e mostre sua traducao na lingua do P.
+
+Na lingua do P, Cada vogal e duplicada, e a letra "p" é inserida entre as duas vogais (exemplo: "a" -> "apa", "e" -> "epe", etc.).
+Consoantes permanecem inalteradas.
+
+
+Exemplo:
+
+Entrada:
+
+Me chamo Pedro Seabra e eu odeio arquivos em linguagem c
+
+Saida:
+
+Mepe chapamopo Pepedropo Sepeapabrapa epe epeupu opodepeipiopo aparqupuipivopos epem lipingupuapagepem c
