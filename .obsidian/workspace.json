@@ -19,7 +19,9 @@
                   "y": -381.6000061035156,
                   "zoom": 0
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "CS - Fluxo Disciplina"
             }
           },
           {
@@ -34,7 +36,9 @@
                   "y": -614.2361063062094,
                   "zoom": 0.15345120731284634
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "CS - Fluxo Disciplina"
             }
           },
           {
@@ -46,7 +50,9 @@
                 "file": "Datas Provas.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Datas Provas"
             }
           },
           {
@@ -58,7 +64,9 @@
                 "file": "1-semestre/Data_provas/2024-10-04 Prova 01 - IP.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-10-04 Prova 01 - IP"
             }
           },
           {
@@ -66,7 +74,9 @@
             "type": "leaf",
             "state": {
               "type": "full-calendar-view",
-              "state": {}
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
             }
           },
           {
@@ -81,7 +91,9 @@
                   "y": 800,
                   "zoom": -0.4061750371108248
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "IP - Fluxo_Disciplina"
             }
           },
           {
@@ -91,7 +103,9 @@
               "type": "pdf",
               "state": {
                 "file": "1-semestre/CS/Plano_Ensino.pdf"
-              }
+              },
+              "icon": "lucide-file-text",
+              "title": "Plano_Ensino"
             }
           },
           {
@@ -101,7 +115,9 @@
               "type": "pdf",
               "state": {
                 "file": "Pesquisa_UFG/LIVRO-Revisao Sistematica da Literatura em Engenharia de Software_ Teoria e Pratica - Elisa Yumi Nakagawa.pdf"
-              }
+              },
+              "icon": "lucide-file-text",
+              "title": "LIVRO-Revisao Sistematica da Literatura em Engenharia de Software_ Teoria e Pratica - Elisa Yumi Nakagawa"
             }
           },
           {
@@ -113,7 +129,9 @@
                 "file": "Accessibility Guidelines for VR Games - A Comparison and Synthesis of a Comprehensive Set.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Accessibility Guidelines for VR Games - A Comparison and Synthesis of a Comprehensive Set"
             }
           },
           {
@@ -125,11 +143,65 @@
                 "file": "2024-11-04.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-11-04"
+            }
+          },
+          {
+            "id": "1269ebeb416a8a03",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
+          },
+          {
+            "id": "03208700cc14d0de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pesquisa_UFG/Resumo Revisão Sistemática.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Resumo Revisão Sistemática"
+            }
+          },
+          {
+            "id": "e8f70dd408840224",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pesquisa_UFG/Resumo Revisão Sistemática.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Resumo Revisão Sistemática"
+            }
+          },
+          {
+            "id": "a48c5e154987a097",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Pesquisa_UFG/LIVRO-Revisao Sistematica da Literatura em Engenharia de Software_ Teoria e Pratica - Elisa Yumi Nakagawa.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "LIVRO-Revisao Sistematica da Literatura em Engenharia de Software_ Teoria e Pratica - Elisa Yumi Nakagawa"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -149,7 +221,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -164,7 +238,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -172,14 +248,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "c67936717c7f0a80",
@@ -195,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-11-04.md",
+                "file": "Pesquisa_UFG/Resumo Revisão Sistemática.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +281,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Resumo Revisão Sistemática"
             }
           },
           {
@@ -212,10 +292,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-11-04.md",
+                "file": "Pesquisa_UFG/Resumo Revisão Sistemática.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Resumo Revisão Sistemática"
             }
           },
           {
@@ -226,7 +308,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -235,8 +319,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-11-04.md"
-              }
+                "file": "Pesquisa_UFG/Resumo Revisão Sistemática.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Resumo Revisão Sistemática"
             }
           }
         ],
@@ -244,7 +330,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -258,8 +345,11 @@
       "completed-task-display:Task Hider": false
     }
   },
-  "active": "2abf8c6c6b17b75e",
+  "active": "a48c5e154987a097",
   "lastOpenFiles": [
+    "Pesquisa_UFG/01 - O que é RS.md",
+    "Pesquisa_UFG/Resumo Revisão Sistemática.md",
+    "Untitled",
     "Etarismo.md",
     "2024-11-04.md",
     "Accessibility Guidelines for VR Games - A Comparison and Synthesis of a Comprehensive Set.md",
@@ -281,7 +371,6 @@
     "1-semestre/Data_provas/2024-11-22 Prova 02 - IP.md",
     "1-semestre/CS/Plano_Ensino.pdf",
     "1-semestre/IP/Plano_Ensino_IP.pdf",
-    "1-semestre/IP/Plano_Ensino_IP.pdf.crdownload",
     "2024-09-23.md",
     "1-semestre/Canvas/CS - Fluxo Disciplina.canvas",
     "1-semestre/CS/Computação e Sociedade 2024-2.md",
