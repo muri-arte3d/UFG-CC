@@ -29,5 +29,11 @@ int main()
 
     info_complex();
 
+    dest_complex(nc1);
+    dest_complex(nc2);
+    dest_complex(soma_nc3);
+    dest_complex(sub_nc4);
+    dest_complex(mult_nc5);
+
     return 0;
 }
