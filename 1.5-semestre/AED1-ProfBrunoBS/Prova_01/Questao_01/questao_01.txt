@@ -1,0 +1,22 @@
+
+ Um robô está explorando uma casa e precisa encontrar o núemro de caminhos
+ possíveis de seu ponto de partida até o ponto de saída. O ponto de partida
+ do robô é representado pelo caractere "s" e o ponto de saída está localizado
+ no canto inferior direito da matriz. O robô pode se mover em quatro direções:
+ cima, baixo, esquerda e direita. A casa é representada por uma matriz de R x C,
+ onde cada célula pode ser um caminho livre (.) ou um obstáculo (#). O robô não
+ pode retornar a um espaço já visistado durante o mesmo caminho.
+
+ A entrada contém dois inteiros R e C (1<= R, C <= 10) representando as dimensões
+ do labirinto.
+ As próximas R linhas contêm C caracteres separados por espaço (exceto o último
+ caractere da linha, que é um caractere de nova linha). A matriz contém:
+
+    -> . representando um caminho livre,
+    -> # representando uma parede, em
+    -> s representando o ponto de partida do robô.
+
+ O ponto de saída está fixado no canto inferior direito da matriz (linha R-1, coluna C-1).
+
+ A saída deve ser uma única linha contendo o número de caminhos possíveis do ponto de partida
+ (s) até o ponto de saída (canto inferior direito).

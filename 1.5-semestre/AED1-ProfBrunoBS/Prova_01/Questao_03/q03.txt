@@ -1,0 +1,15 @@
+Um jogo de RPG precisa de gerenciador de inventário para os personagens.
+Cada inventário possui duas limitações, não pode haver mais de 50 itens
+diferentes, e eum inventário não comporta carregar itens que excedam seu
+peso máximo (especificação na criação). Itens possuem nome e peso. Um
+personagem pode carregar vários de um mesmo item caso deseje. As fuciona-
+lidades necessárias para o jogo são as seguintes:
+
+1. Adicionar Item: recebe o item, e a quantidade do mesmo que será adicionada.
+2. Remover Item: recebe o nome do item a ser removido e a quantidade desejada.
+    a. Neste caso, se a quantidade for 0 (zero) deve-se remover todos daquele item.
+3. Procurar Item: recebe o nome do item e retorna a quantidade daquele item disponível.
+4. Peso Total: retorna o peso total do inventário naquele instante.
+5. Imprimir Inventário: imprime os nomes, quantidades, e pesos dos itens presentes no inventário.
+
+Faça os arquivos .h, .c, e main.c com o último demonstrando o uso de cada funcionalidade.
