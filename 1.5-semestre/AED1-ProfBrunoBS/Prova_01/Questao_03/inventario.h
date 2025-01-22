@@ -7,17 +7,22 @@
 #define SLOT_VAZIO 0
 #define BAG_VAZIA 0
 
-typedef struct item Item;
+typedef struct item
+{
+    char nome[MAX_NOME_ITEM];
+    unsigned int peso;
+} Item;
+
 typedef struct inventario Inventario;
 
-//Funções de suporte
+// Funções de suporte
 Inventario *criaInventario();
-int inicializaInventario(Inventario *inventario);
+int inicializaInventario(Inventario *inventario, int pesoMaximo);
 int inventarioVazio(Inventario *inventario);
 int inventarioCheio(Inventario *inventario);
 int inventarioPesoMAX(Inventario *inventario);
 
-//Funções da questão
+// Funções da questão
 int addItem(Inventario *inventario, Item item, int quantidade);
 int removeItem(Inventario *inventario, char nome[], int qtd);
 int procuraItem(Inventario *inventario, char nome[]);
