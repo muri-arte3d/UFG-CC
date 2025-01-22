@@ -1,0 +1,2 @@
+Explique a relação entre a especificação de um TAD e a sua implementação.
+Por que é importante separar essas duas partes ao projetar um TAD?
