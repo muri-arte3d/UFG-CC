@@ -28,3 +28,4 @@ int removeItem(Inventario *inventario, char nome[], int qtd);
 int procuraItem(Inventario *inventario, char nome[]);
 int pesoTotal(Inventario *inventario);
 void imprimeInventario(Inventario *inventario);
+void liberaInventario(Inventario* inventario);

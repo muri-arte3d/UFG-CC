@@ -71,6 +71,11 @@ int inventarioPesoMAX(Inventario *inventario)
         return FALHA;
     }
 }
+
+void liberaInventario(Inventario *inventario)
+{
+    free(inventario);
+}
 //***************************************************************
 
 // Funções da questão ******************************************
@@ -147,7 +152,7 @@ int removeItem(Inventario *inventario, char nome[], int qtd)
             {
                 printf("Todos os %s foram removidos!\n", inventario->itens[i].nome);
                 inventario->pesoAtual -= inventario->itens[i].peso * inventario->qtd[i];
-                strcpy(inventario->itens[i].nome, ""); 
+                strcpy(inventario->itens[i].nome, "");
                 inventario->qtd[i] = SLOT_VAZIO;
                 return SUCESSO;
             }

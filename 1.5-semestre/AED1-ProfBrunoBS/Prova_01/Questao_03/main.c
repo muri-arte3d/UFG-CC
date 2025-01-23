@@ -67,5 +67,7 @@ int main()
     imprimeInventario(bag);
     printf("********************************\n");
 
+    liberaInventario(bag);
+
     return 0;
 }

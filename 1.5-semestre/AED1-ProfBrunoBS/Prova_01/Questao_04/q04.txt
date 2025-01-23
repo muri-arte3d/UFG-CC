@@ -1,0 +1,15 @@
+Crie um TAD que represente um histórico de navegação de um browser.
+Quando uma nova seção, ou aba, é iniciada, um novo histórico é criado.
+À medida que sites vão sendo visitados eles são adicionados ao
+histórico cujo tamanho máximo é 20, contudo, o usuário pode visitar mais
+de 20 sites, apenas não será possível voltar, ou ver, além de 20 sites
+anteriores. O cliente do seu TAD deve ser capaz de:
+
+1. Iniciar uma nova sessão
+2. Imprimir o site atual (apenas o nome)
+3. Visitar um novo site
+4. Voltar no histórico
+5. Avançar no histórico
+6. Imprimir todo o histórico
+
+Faça os arquivos .h e .c para este TAD.
