@@ -18,6 +18,7 @@
  */
 #define SUCESSO 1
 #define FALHA -1
+#define CHAVE_INVALIDA -1
 #define TAMANHO_MAXIMO_LISTA 5
 
 typedef struct elemento
